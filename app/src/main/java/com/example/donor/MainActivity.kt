@@ -9,3 +9,17 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 }
+
+
+/*
+
+androidxllprojects {
+    ...
+    repositories {
+        // Make sure that you have the following two repositories
+        google()  // Google's Maven repository
+
+        mavenCentral()  // Maven Central repository
+
+    }
+}*/
