@@ -1,6 +1,7 @@
 package com.example.donor.adapter
 
 import android.content.Intent
+import android.os.Build.VERSION_CODES.R
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -22,10 +23,7 @@ class BorrowAdapter(var userList: ArrayList<RentInfo>) : RecyclerView.Adapter<Re
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
         val user = userList[position]
         (holder as ViewHolder).bind(user)
-        holder.itemView.setOnClickListener {
-            val context = holder.itemView.context
-            context.startActivity(Intent(context, DonateActivity::class.java))
-        }
+
     }
 
     override fun getItemCount() = userList.size

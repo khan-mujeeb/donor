@@ -3,11 +3,13 @@ package com.example.donor.ui
 import android.Manifest
 import android.app.Activity
 import android.content.ActivityNotFoundException
+import android.content.ContentValues
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.provider.MediaStore
 import android.provider.Settings
+import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
@@ -50,7 +52,7 @@ class RentActivity : AppCompatActivity() {
 
         binding.finishBtn.setOnClickListener {
             dialog.show()
-            uploadDataInfo(contentUri.toString())
+            uploadPdfToFirebaseStorage(contentUri)
         }
 
     }
@@ -160,6 +162,28 @@ class RentActivity : AppCompatActivity() {
         builder.setMessage("Loading..")
         builder.setCancelable(false)
         dialog = builder.create()
+    }
+
+    private fun uploadPdfToFirebaseStorage(uriValue: Uri?) {
+
+        val storageRef = FirebaseStorage.getInstance().reference
+        val pdfRef = storageRef.child("dp/${uriValue!!.lastPathSegment}")
+        val uploadTask = pdfRef.putFile(uriValue)
+        uploadTask.addOnProgressListener { taskSnapShot ->
+            val progress = ((100.00 * taskSnapShot.bytesTransferred) / taskSnapShot.totalByteCount)
+            Log.d(ContentValues.TAG, "progress is $progress")
+//            val message = findViewById<TextView>(Build.VERSION_CODES.R.id.message)
+//            dialog.setCustomTitle(message)
+
+
+        }.addOnSuccessListener {
+            // Get the download URL of the PDF file and save it to Firebase Realtime Database
+            pdfRef.downloadUrl.addOnSuccessListener { downloadUri ->
+                uploadDataInfo(downloadUri.toString())
+            }
+        }.addOnFailureListener {
+            // Handle the error
+        }
     }
 
     companion object{
