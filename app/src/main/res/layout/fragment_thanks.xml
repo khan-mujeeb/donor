@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="350dp"
+    android:layout_marginBottom="30dp"
+    android:layout_marginStart="15dp"
+    android:backgroundTint="@color/white_ka_shade"
+    android:layout_marginEnd="15dp"
+
+    app:cardCornerRadius="15dp">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/thankyou"
+            android:layout_below="@+id/camera_name" />
+
+        <TextView
+            android:id="@+id/camera_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark_blue"
+            android:textAlignment="center"
+            android:text="valuable contribution for this society"
+            android:textFontWeight="600"
+            android:textSize="20sp" />
+
+        <TextView
+
+            android:layout_marginTop="10dp"
+            android:textColor="@color/dark_blue"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:text="@string/our_team_will_shortly_contact_you"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

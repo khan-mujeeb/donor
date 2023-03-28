@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="@color/white_ka_shade"
+    android:padding="8dp"
+
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ui.DonateActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        app:cardCornerRadius="1000dp"
+        android:layout_marginTop="50dp"
+        android:foregroundGravity="center"
+        >
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/donate_img"/>
+
+    </androidx.cardview.widget.CardView>
+    <RelativeLayout
+        android:layout_marginBottom="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="8">
+        <EditText
+            android:layout_above="@id/contact"
+            android:background="@drawable/bg_edittext"
+            android:hint="Enter Item to donate"
+            android:padding="10dp"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:id="@+id/notification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_above="@id/location"
+            android:background="@drawable/bg_edittext"
+            android:hint="Enter PhoneNumber"
+            android:padding="10dp"
+            android:maxLength="10"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:id="@+id/contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_above="@id/push"
+            android:background="@drawable/bg_edittext"
+            android:hint="Enter Location"
+            android:padding="10dp"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/push"
+            android:layout_marginTop="30dp"
+            android:padding="10dp"
+            android:text="Donate"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+</LinearLayout>

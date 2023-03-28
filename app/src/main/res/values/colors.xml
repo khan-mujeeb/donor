@@ -9,6 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="lightGreen">#21E58E</color>
     <color name="dark_blue">#061724</color>
-
+    <color name="white_ka_shade">#E4DFDA</color>
+    <color name="bg">#3C474D</color>
 
 </resources>

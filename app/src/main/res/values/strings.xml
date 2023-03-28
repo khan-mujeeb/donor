@@ -2,4 +2,7 @@
     <string name="app_name">Donor</string>
     <string name="number">number</string>
     <string name="dont_have_an_account">dont_have_an_account</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="our_team_will_shortly_contact_you">Our Team will shortly contact you</string>
 </resources>
