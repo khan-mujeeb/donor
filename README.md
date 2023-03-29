@@ -1,5 +1,5 @@
 # Swap-Cycle
-<img src="[https://images.ctfassets.net/7xz1x21beds9/23qdoojkxZest7WBr9UxCm/e40c2a9fc6d3384ece353e99e685253c/-shutterstock_1903690807.jpg?w=1920&h=1279&q=90&fm=webp](https://user-images.githubusercontent.com/70430389/228441392-1fbe155b-ecb8-4a5d-bdd1-e7650785c643.png)"
+<img src="https://user-images.githubusercontent.com/70430389/228441392-1fbe155b-ecb8-4a5d-bdd1-e7650785c643.png"
 align="right" 
      title="img" width="35%" height="30%">
      
