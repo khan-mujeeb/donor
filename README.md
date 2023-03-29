@@ -1,5 +1,5 @@
 # Swap-Cycle
-<img src="https://user-images.githubusercontent.com/70430389/228441392-1fbe155b-ecb8-4a5d-bdd1-e7650785c643.png"
+<img src="https://user-images.githubusercontent.com/70430389/228442766-a619f7ea-064f-44dc-add1-3d4fadc03b57.png"
 align="right" 
      title="img" width="35%" height="30%">
      
@@ -12,6 +12,11 @@ The idea for our application came from a need we identified in our community. Ma
 
 With these needs in mind, we created an application that allows users to rent clothing and other items for a fraction of the cost of buying new items. Our inventory includes a wide range of clothing and accessories for both men and women, as well as household items such as books, toys, and electronics. This inventory is constantly updated with new items, ensuring that our users have access to the latest trends and styles.
 
+
+
+<img src="https://user-images.githubusercontent.com/70430389/228441392-1fbe155b-ecb8-4a5d-bdd1-e7650785c643.png"
+align="left"  title="img1" width="25%" height="28%"> 
+     
 But that's not all - our application also allows users to donate their gently used clothing and items to those in need. This promotes sustainable living and ensures that our items are being used to their fullest potential.
 
 Our application is user-friendly, with a simple and intuitive interface that makes renting and donating items quick and easy. Our team is committed to providing excellent customer service and ensuring that all transactions are secure and confidential.
