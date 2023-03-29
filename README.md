@@ -1,7 +1,11 @@
 # Swap-Cycle
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.entrepreneur.com%2Fen-in%2Fnews-and-trends%2Femerging-and-sustainable-fashion-industry-in-2022%2F398670&psig=AOvVaw134Uf-6LGbOMWGhP8dU2G9&ust=1680156127510000&source=images&cd=vfe&ved=2ahUKEwiNubm6u4D-AhUJUWwGHUXRCP0QjRx6BAgAEAo"
+<img src="[https://images.ctfassets.net/7xz1x21beds9/23qdoojkxZest7WBr9UxCm/e40c2a9fc6d3384ece353e99e685253c/-shutterstock_1903690807.jpg?w=1920&h=1279&q=90&fm=webp](https://user-images.githubusercontent.com/70430389/228441392-1fbe155b-ecb8-4a5d-bdd1-e7650785c643.png)"
 align="right" 
      title="img" width="35%" height="30%">
+     
+     
+   
+
 Our application is designed to simplify the renting process and make it accessible to everyone while also promoting sustainable living through clothing donations.
 
 The idea for our application came from a need we identified in our community. Many people struggle with finding affordable clothing and accessories for special events or even for everyday use. At the same time, we also noticed that there is a growing trend towards sustainable living and donating gently used clothing and items.
