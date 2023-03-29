@@ -1,10 +1,10 @@
 # Swap-Cycle
-<img src="https://user-images.githubusercontent.com/70430389/228442766-a619f7ea-064f-44dc-add1-3d4fadc03b57.png"
+<img src="https://user-images.githubusercontent.com/70430389/228443590-e2a59efd-3422-44be-b500-bc1971b04927.png"
 align="right" 
      title="img" width="35%" height="30%">
      
      
-   
+
 
 Our application is designed to simplify the renting process and make it accessible to everyone while also promoting sustainable living through clothing donations.
 
